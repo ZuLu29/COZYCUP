@@ -129,3 +129,15 @@ footer a {
 footer p {
     margin: 0;
 }
+
+@media (max-width: 768px) {
+    .team-member {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .team-member {
+        width: 100%;
+    }
+}
