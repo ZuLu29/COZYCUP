@@ -75,6 +75,13 @@ header {
     background-color: #ffe8d6;
 }
 
+.menu-section h2 {
+    color: #6b705c;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+
 footer {
     background-color: #c5a96d;
     color: white;
