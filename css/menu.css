@@ -9,7 +9,7 @@ body {
 header {
     background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    padding: 20px;
 }
 
 .logo img {
@@ -120,6 +120,18 @@ header {
     font-weight: bold;
     color: #6b705c;
     font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .menu-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-item {
+        width: 100%;
+    }
 }
 
 footer {
