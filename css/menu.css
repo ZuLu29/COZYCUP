@@ -11,3 +11,31 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 10px;
 }
+
+.logo img {
+    max-width: 100px;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.main-nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.main-nav a:hover {
+    color: #f8eded;
+}
