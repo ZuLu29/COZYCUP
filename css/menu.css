@@ -69,6 +69,12 @@ header {
     color: #ddd;
 }
 
+.menu-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ffe8d6;
+}
+
 footer {
     background-color: #c5a96d;
     color: white;
