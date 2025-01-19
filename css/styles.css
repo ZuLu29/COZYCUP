@@ -11,9 +11,9 @@ body {
 }
 
 header {
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 60px;
+    
 }
 
 nav {
@@ -30,11 +30,12 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    
 }
 
 nav a {
     text-decoration: none;
-    color: #4c3c32;
+    color: white;
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -48,7 +49,7 @@ nav a:hover {
     padding: 150px 0;
     background-image: url('hero-bg.jpg');
     background-size: cover;
-    color: white;
+   color: white;
 }
 
 .hero h1 {
@@ -61,7 +62,35 @@ nav a:hover {
     margin-bottom: 40px;
 }
 
-.cta-button {
+/* From Uiverse.io by TimTrayler */ 
+button {
+    --hover-shadows: 16px 16px 33px #121212, -16px -16px 33px #303030;
+    --accent: fuchsia;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    border: none;
+    border-radius: 1.1em;
+    background-color: #4c3c32;
+    cursor: pointer;
+    color: white;
+    padding: 1em 2em;
+    transition: box-shadow ease-in-out 0.3s, background-color ease-in-out 0.1s,
+      letter-spacing ease-in-out 0.1s, transform ease-in-out 0.1s;
+    box-shadow: 13px 13px 10px #1c1c1c, -13px -13px 10px #262626;
+  }
+  
+  button:hover {
+    box-shadow: var(--hover-shadows);
+  }
+  
+  button:active {
+    box-shadow: var(--hover-shadows), var(--accent) 0px 0px 30px 5px;
+    background-color: var(--accent);
+    transform: scale(0.95);
+  }
+  
+
+/*.cta-button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #4c3c32;
@@ -72,7 +101,7 @@ nav a:hover {
 
 .cta-button:hover {
     background-color: #7e685b;
-}
+}*/
 
 .menu {
     padding: 100px 0;
