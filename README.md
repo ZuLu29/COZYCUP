@@ -32,5 +32,5 @@ Cozy Cup Cafe is a website for a coffee shop that displays a menu with coffee dr
 
 ## Connect with Us
 
-[![Facebook](https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/Facebook.png?raw=true)](https://www.facebook.com/Audey R. Orcajada)  
+[![Facebook](https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/Facebook.png?raw=true)](https://www.facebook.com/profile.php?id=100090825294320)  
 [![GitHub](https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/Github.png?raw=true)](https://github.com/AUDEYOO)
