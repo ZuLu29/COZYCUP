@@ -17,7 +17,7 @@ Cozy Cup Cafe is a website for a coffee shop that displays a menu with coffee dr
 ![Coffee Menu](menu.png)
 *The coffee menu section with images and descriptions of the coffee items.*
 
-![AboutUs](images/aboutus.png)
+![AboutUs](images/file:///C:/Users/Audey%20R.%20Orcajada/Desktop/cozycupproject/COZYCUP/Contact.html)
 *The about page section displaying the story of the Cozy Cup Cafe.*
 
 ![Contact](contactus.png)
