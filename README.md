@@ -25,7 +25,7 @@ Cozy Cup Cafe is a website for a coffee shop that displays a menu with coffee dr
 
 ## About the Authors
 
-<img src="dey.png" alt="Audey" width="150" style="border-radius: 50%;">
+<img src="images/dey.png" alt="Audey" width="150" style="border-radius: 50%;">
 
 **Name:** [Audey Orcajada]  
 **Email:** [202280098@psu.palawan.edu.ph]
