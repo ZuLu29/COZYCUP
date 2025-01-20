@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fefae0; 
-    color: #333;  
+    color: #ffffff;  
 }
 
 header {
@@ -37,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #7e685b;
+    color: #ffffff;
 }
 
 section {
@@ -46,7 +46,7 @@ section {
 }
 
 h2 {
-    color: #6b705c;
+    color: #ffffff;
     margin-bottom: 40px;
     font-size: 30px;
     font-weight: bold;
@@ -55,10 +55,13 @@ h2 {
 p {
     font-size: 16px;
     margin-bottom: 20px;
+    color: black;
 }
-
+.story p{
+    color:rgb(255, 249, 249);
+}
 .cafe-story, .meet-team, .cafe-mission {
-    background-color: #ffe8d6;
+    background-color: #a78063;
     margin-bottom: 30px;
     padding: 40px 20px;
     border-radius: 8px;
@@ -112,7 +115,7 @@ h2{
 }
 
 footer {
-    background-color: #c5a96d;
+    background-color: rgb(192, 119, 70);
     color: white;
     text-align: center;
     padding: 20px 0;
