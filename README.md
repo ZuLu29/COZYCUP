@@ -11,16 +11,16 @@ Cozy Cup Cafe is a website for a coffee shop that displays a menu with coffee dr
 
 ## Screen Captures
 
-![Home Page](images/home.png)
+![Home Page](home.png)
 *This is the homepage of the Cozy Cup Cafe website, showcasing the coffee and pastry menu.*
 
-![Coffee Menu](images/menu.png)
+![Coffee Menu](menu.png)
 *The coffee menu section with images and descriptions of the coffee items.*
 
-![Pastry Menu](images/aboutus.png)
+![AboutUs](images/aboutus.png)
 *The about page section displaying the story of the Cozy Cup Cafe.*
 
-![Footer](images/contactus.png)
+![Contact](contactus.png)
 *This map show the location of our cafe, which includes the cafe’s contact information and social media links.*
 
 ## About the Authors
