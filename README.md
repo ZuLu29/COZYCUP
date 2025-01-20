@@ -2,7 +2,7 @@
 
 ## Project descritption
 
-The CozyCup Café website is a warm and inviting digital space that showcases the charm of your café. It features a menu with delightful beverages and treats, information about the cafe location, customer reviews, and a contact section.
+The CozyCup Café website is a warm and inviting digital space that showcases the charm of our café. It features a menu with delightful beverages and treats, information about the cafe location, customer reviews, and a contact section.
 
 ## Features
 
@@ -25,7 +25,7 @@ customer review page with location page with map and contact information
 
 <img src="img/me.jpg" alt="Profile Picture" width="150" style="border-radius: 50%;">
 
-**Name:** ZuLu29
+**Name:** Mark Neil Conde
 **Email:** markneilconde850@gmail.com
 
 ## Social Links:
