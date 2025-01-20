@@ -13,9 +13,6 @@ body {
 header {
     padding-left: 20px;
     padding-right: 60px;
-    position: sticky;
-    top: 0px;
-    z-index: 1000;
 }
 
 nav {
@@ -64,8 +61,7 @@ nav a:hover {
     margin-bottom: 40px;
 }
 
-/* From Uiverse.io by TimTrayler */ 
-button {
+.button1 {
     --hover-shadows: 16px 16px 33px #121212, -16px -16px 33px #303030;
     --accent: rgb(255, 153, 0);
     font-weight: bold;
@@ -81,29 +77,16 @@ button {
     box-shadow: 13px 13px 10px #1c1c1c, -13px -13px 10px #262626;
   }
   
-  button:hover {
+  .button1:hover {
     box-shadow: var(--hover-shadows);
   }
   
-  button:active {
+  .button1:active {
     box-shadow: var(--hover-shadows), var(--accent) 0px 0px 30px 5px;
     background-color: var(--accent);
     transform: scale(0.95);
   }
   
-
-/*.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4c3c32;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.cta-button:hover {
-    background-color: #7e685b;
-}*/
 
 .menu {
     padding: 100px 0;
@@ -118,7 +101,6 @@ button {
 .about {
     padding: 100px 0;
     text-align: center;
-    background-color: #ede4d6;
 }
 
 .about h2 {
@@ -131,12 +113,12 @@ button {
     max-width: 800px;
     margin: 0 auto;
 }
-
+.white{
+    color: white;
+}
 .contact {
     padding: 100px 0;
     text-align: center;
-    background-color: #4c3c32;
-    color: white;
 }
 
 .contact h2 {
@@ -149,9 +131,245 @@ button {
     margin-bottom: 40px;
 }
 
+.pop-menu{
+    display: flex;
+justify-content: space-around;
+}
+
+.menu-section {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    text-align: center;
+    color: #ffffff;
+}
+.menu-section h2 {
+    color: #6b705c;
+    margin-bottom: 40px;
+    font-size: 30px;
+ 
+}
+
+.menu-item {
+    display: inline-block;
+
+    text-align: center;
+    padding: 20px;
+    background-color: #aa9689;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.menu-section .menu-item {
+    margin: 10px;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 220px; 
+    object-fit: cover; 
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu-item .price {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .menu-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-item {
+        width: 100%;
+    }
+}
 footer {
-    background-color: #4c3c32;
+   
     color: white;
     text-align: center;
-    padding: 20px 0;
+    background-color: #7e685b;
+}
+
+.p {
+    background-color: #4c3c32;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.footernav{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+ 
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+   
+}
+
+
+.button2 {
+    width: 45px;
+    height: 45px;
+    background-color: #3b5998;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185),
+   0px 3px 3px rgba(255, 255, 255, 0.178) inset,
+   0px -3px 3px rgba(0, 0, 0, 0.281) inset;
+    transition: all .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-bottom: 3px;
+  }
+  
+  .button2::before {
+    background-color: transparent;
+    content: "f";
+    font-size: 1.6em;
+    font-weight: 700;
+    color: white;
+    z-index: 5;
+    transition: all .3s;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  .button2::after {
+    content: "acebook";
+    background-color: transparent;
+    font-size: 0;
+    opacity: 0;
+    font-weight: 700;
+    color: white;
+    z-index: 5;
+    transition: all .3s;
+    transform: translateX(60px);
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  .button2:hover {
+    width: 160px;
+    border-radius: 30px;
+  }
+  
+  .button2:hover::after {
+    opacity: 1;
+    font-size: 1.6em;
+    transform: translateX(0px);
+  }
+  
+  .button2:hover .shine {
+    transform: translate(-70px ,10px);
+  }
+
+h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.form-container{
+    display: flex;
+    justify-content: space-around;
+    color: #4c3c32;
+}
+
+.info {
+    background-color: white;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 20px;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+  }
+  
+  .form .title {
+    color: #4c3c32;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form input {
+    outline: 0;
+    border: 1px solid rgb(219, 213, 213);
+    padding: 8px 14px;
+    border-radius: 8px;
+    width: 90%;
+    height: 50px;
+  }
+  
+  .form textarea {
+    border-radius: 8px;
+    height: 100px;
+    width: 90%;
+    resize: none;
+    outline: 0;
+    padding: 8px 14px;
+    border: 1px solid rgb(219, 213, 213);
+  }
+  
+  .form button {
+    align-self: flex-end;
+    padding: 8px;
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #7e685b;
+    color: #fff;
+    cursor: pointer;
+  }
+
+.brown{
+    color: #4c3c32;
 }

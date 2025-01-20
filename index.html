@@ -6,11 +6,14 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>CozyCup Café</title>
   </head>
-  <body>
+  <body
     style="
       background-image: url('img/banner2.jpg');
       background-size: cover;
-      height: 200px;
+      background-attachment: fixed; /* Optional for parallax effect */
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
     "
   >
     <header>
@@ -22,7 +25,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="Menu.html">Menu</a></li>
           <li><a href="AboutUs.html">About Us</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="Contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -31,26 +34,75 @@
       <h1>Welcome to CozyCup Café</h1>
       <p>Discover Your Perfect Brew</p>
       <a href="Menu.html">
-        <button>Explore menu</button>
+        <button class="button1">Explore menu</button>
       </a>
     </section>
-
-    <section id="menu" class="menu">
-      <h2>Our Menu</h2>
-    </section>
-
-    <section id="about" class="about">
-      <h2>About Us</h2>
-      <p>Discover the story behind CozyCup Café...</p>
-    </section>
-
+    <br /><br />
+    <h1>popular coffee blends and pastries.</h1>
+    <br />
+    <div class="pop-menu">
+      <h2>Coffee Menu</h2>
+      <h2>Pastry Menu</h2>
+    </div>
+    <div class="pop-menu">
+      <section id="coffee-menu" class="menu-section">
+        <div class="menu-item">
+          <img src="img/espresso.jpg" alt="Espresso" />
+          <h3>Espresso</h3>
+          <p>A strong, full-bodied coffee shot.</p>
+          <p class="price">150.00</p>
+        </div>
+      </section>
+      <section id="pastry-menu" class="menu-section">
+        <div class="menu-item">
+          <img src="img/croissant.jpg" alt="Croissant" />
+          <h3>Croissant</h3>
+          <p>A buttery, flaky, and golden pastry.</p>
+          <p class="price">120.00</p>
+        </div>
+      </section>
+    </div>
     <section id="contact" class="contact">
-      <h2>Contact Us</h2>
-      <p>Have questions or feedback? Reach out to us...</p>
+      <h2 class="white">Contact Us</h2>
+      <div class="form-container">
+        <div class="info">
+          <h2 class="brown">Contact Information</h2>
+          <br /><br />
+          <p>
+            <strong>Café address:</strong> Camikebir mahallesi, Kasap Zekeriya
+            Sk. No:3, Istanbul, Turkey
+          </p>
+          <br />
+          <p><strong>Phone number:</strong> +90 542 431 00 06</p>
+          <br />
+          <p><strong>Email:</strong> cozycup7@gmail.com</p>
+        </div>
+        <form class="form">
+          <div class="title">Contact Form</div>
+          <input type="text" placeholder="Your email" class="input" />
+          <textarea placeholder="Your message"></textarea>
+
+          <button>Submit</button>
+        </form>
+      </div>
     </section>
 
     <footer>
-      <p>&copy; 2023 CozyCup Café. All rights reserved.</p>
+      <nav class="footernav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Menu.html">Menu</a></li>
+          <li><a href="AboutUs.html">About Us</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="socials">
+        <button
+          class="button2"
+          onclick="window.location.href='https://web.facebook.com/profile.php?id=61569646600689';"
+        ></button>
+      </div>
+      <p class="p">&copy; 2025 CozyCup Café. All rights reserved.</p>
     </footer>
   </body>
 </html>
