@@ -13,7 +13,9 @@ body {
 header {
     padding-left: 20px;
     padding-right: 60px;
-    
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
 }
 
 nav {
@@ -65,7 +67,7 @@ nav a:hover {
 /* From Uiverse.io by TimTrayler */ 
 button {
     --hover-shadows: 16px 16px 33px #121212, -16px -16px 33px #303030;
-    --accent: fuchsia;
+    --accent: rgb(255, 153, 0);
     font-weight: bold;
     letter-spacing: 0.1em;
     border: none;

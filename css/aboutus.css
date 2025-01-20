@@ -73,14 +73,17 @@ p {
     margin-bottom: 15px;
 }
 
+h2{
+    text-align: center;
+}
+
 .about-section{
     display: flex;
     justify-content: space-evenly;
 }
 
 .team-member {
-    display: inline-block;
-    width: calc(33.33% - 20px);
+    width: 350px;
     text-align: center;
     padding: 20px;
     background-color: #fff;
