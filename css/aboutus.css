@@ -7,12 +7,15 @@ body {
 }
 
 header {
-    background-color: #ffffff; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-    padding: 20px;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+    padding-left: 20px;
+    padding-right: 60px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo img {
@@ -21,26 +24,20 @@ header {
 
 nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: right;
-}
-
-nav li {
-    display: inline;
-    margin: 0 20px;
+    display: flex;
+    gap: 20px;
+    
 }
 
 nav a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: black;
     font-weight: bold;
-    font-size: 18px;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #f8eded;
+    color: #7e685b;
 }
 
 section {
@@ -74,6 +71,11 @@ p {
     object-fit: cover;
     border-radius: 5px;
     margin-bottom: 15px;
+}
+
+.about-section{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .team-member {
