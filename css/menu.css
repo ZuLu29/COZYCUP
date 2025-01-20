@@ -34,13 +34,13 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #ffffff;
+    color: #85431d;
 }
 
 .secondary-nav {
